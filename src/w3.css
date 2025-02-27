@@ -35,7 +35,7 @@ img {
 
 body,
 html {
-  font-family: Verdana, sans-serif;
+  font-family: Roboto, serif;
   font-size: 15px;
   line-height: 1.5;
 }
@@ -60,19 +60,14 @@ h5 {
 h6 {
   font-size: 16px;
 }
-.w3-serif {
-  font-family: serif;
-}
-.w3-sans-serif {
-  font-family: sans-serif;
-}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Roboto, serif;
   font-weight: 400;
   margin: 10px 0;
 }
@@ -564,7 +559,6 @@ iframe {
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin-top: 2rem;
 }
 .content-row > * {
   flex: 1 1 50%;
