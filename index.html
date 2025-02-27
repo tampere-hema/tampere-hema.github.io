@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tampere HEMA</title>
+    <!-- Standard favicon -->
+<link rel="icon" type="image/png" href="favicon.png">
+
+<!-- Alternative: If using ICO format -->
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<!-- For better compatibility across devices -->
+<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="src/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css"
+      integrity="sha512-58P9Hy7II0YeXLv+iFiLCv1rtLW47xmiRpC1oFafeKNShp8V5bKV/ciVtYqbk2YfxXQMt58DjNfkXFOn62xE+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato", sans-serif;
+      }
+      .mySlides {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a
+          href="#band"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >INFO</a
+        >
+
+        <a
+        href="#fiore"
+        class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+        >FIORE</a
+      >
+
+        <a
+          href="#tour"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >I.33</a
+        >
+        <a
+          href="#training"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >TRAINING</a
+        >
+
+        <!--
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">
+            MORE <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+            <a href="#" class="w3-bar-item w3-button">Extras</a>
+            <a href="#" class="w3-bar-item w3-button">Media</a>
+          </div>
+        </div> -->
+      </div>
+    </div>
+
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div
+      id="navDemo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top: 46px"
+    >
+      <a
+        href="#band"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >INFO</a
+      >
+      <a
+      href="#fiore"
+      class="w3-bar-item w3-button w3-padding-large"
+      onclick="myFunction()"
+      >FIORE</a
+    >
+      <a
+        href="#tour"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >I.33</a
+      >
+      <a
+        href="#training"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >TRAINING</a
+      >
+      <a
+        href="#"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >MERCH</a
+      >
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
+      <!-- Automatic Slideshow Images -->
+      <div class="mySlides w3-display-container w3-center">
+        <img
+          src="./photos/001.jpg"
+          style="
+            object-fit: cover;
+            object-position: 40% 50%;
+            height: 38rem;
+            width: 100%;
+            overflow: hidden;
+            filter: brightness(40%);
+          "
+        />
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img
+          src="./photos/002.jpg"
+          style="
+            object-fit: cover;
+            object-position: 40% 50%;
+            height: 38rem;
+            width: 100%;
+            overflow: hidden;
+            filter: brightness(40%);
+          "
+        />
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img
+          src="./photos/003.jpg"
+          style="
+            object-fit: cover;
+            object-position: 40% 50%;
+            height: 38rem;
+            width: 100%;
+            overflow: hidden;
+            filter: brightness(40%);
+          "
+        />
+      </div>
+      <div class="mySlides w3-display-container w3-center">
+        <img
+          src="./photos/swords_bw.jpg"
+          style="
+            object-fit: cover;
+            object-position: 40% 50%;
+            height: 38rem;
+            width: 100%;
+            overflow: hidden;
+            filter: brightness(40%);
+          "
+        />
+      </div>
+      <div
+        class="w3-display-topleft w3-container w3-text-white w3-padding-32 w3-hide-small"
+      ></div>
+
+      <div class="main-title-container">
+        <div>
+          <h3 class="tampere-hema">TAMPERE HEMA</h3>
+          <p class="historical-martial-arts">
+            HISTORICAL EUROPEAN MARTIAL ARTS
+          </p>
+        </div>
+        <div>
+          <svg
+            class="svg-logo"
+            version="1.2"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 175 195"
+            width="175"
+            height="195"
+          >
+            <title>THEMA_Logo</title>
+            <style>
+              .s0 {
+                fill: #ffffff;
+              }
+            </style>
+            <g id="Lynx">
+              <path
+                id="Lynx 2 "
+                fill-rule="evenodd"
+                class="s0"
+                d="m151.3 106.1c-8.3 58.5-63.3 70.5-63.3 70.5 0 0-35.3 11-69.2-14.5 0 0 27.1 9.7 52.9 2.4 25.8-7.3 22.2-53.1 19.1-55.3 0 0 4 11.4-5.1 26.5l-4.4-4.3 2.1 8.8c0 0-1.1 1.9-1.4 1.8l-5.8-6.3 1.9 9.5c0 0-2.4 3.8-9.5 5 0 0 0-31.9-19.8-34.1 0 0 6.6 3 5.8 4.1l-9.4 4.3c0 0-4.9 0.6-7.4-2 0 0-4.4-5.7-4.4-6.2 0-0.5 0.8-2.2 0.8-2.2 0 0 0.3-0.9-0.3-0.7-0.6 0.2-1.5 0.7-3.2 0.4 0 0-5-3.9-4.6-8.6 0 0-2.8 1.5-4.5-5.4 0 0 8.6-10.3 10.9-12.2 0 0 0-11.7 0.6-12.6 0 0 10.2-13.9 24-17.9 0 0 1.8-26.9 19.6-42.8 0 0-1.4 2.3 1.4 5.2 0 0-3.6-0.4-7.4 6l2.7 7.2-2.7 5.1 3.7-2.4 1.7 2.4-1.7 3 3.2-1.6c0 0 8.1 13.6 17 19.5 8.9 5.9 3.7 1.4 19.3 11.7l-4.3 2.3h7.5l4.1 2.9-4.1 2.2h6.9c0 0 2.4 0.9 2.7 1.7l9.1 7.7c0 0 5-32.3-20.1-60.1 0 0 43.1 25.8 35.6 79zm-101.6-27.2c3.4-6.7 3.3-8.8 3.2-8.8 0 0-0.3 0.9-1 2.1-0.7 1-1.4 1.8-1.9 2.2q-0.7 0.6-1.1 0.9c-2.1 1.6-4.3 2.8-7.5 4.6-0.2 0.1-0.8 0.4-1.4 1-1.3 1.2-1.8 2.7-2 3.8 0 0 0.7-0.5 1.8-0.8 0.4-0.1 0.5 0 0.5 0l0.8 0.5c3.9 2.5 6.4 1.3 6.4 1.3 3.1-1.9 2.2-6.8 2.2-6.8z"
+              />
+              <g id="Pupil">
+                <path
+                  id="Pupil 2 "
+                  class="s0"
+                  d="m43.3 82.7l0.9-0.7c0 0 3.2 3.1 2-1.4l2.7-2.5c0 0 1.5 9.8-5.6 4.6z"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- The Band Section -->
+      <div
+        class="w3-container w3-content w3-center w3-padding-64"
+        style="max-width: 800px"
+        id="band"
+      >
+        <p class="w3-justify">
+          Tampere HEMA (Tampereen historiallisen miekkailun seura ry) is a
+          historical European martial arts club in the city of Tampere, Finland.
+          Training is typically held in English. <br />We hold weekly training
+          sessions in two main disciplines: Armizare (Longsword, Dagger,
+          Wrestling) and I.33 (Sword and Buckler).
+
+          <ul style="text-align: left">
+            <li>A lot of longsword but also sword bucker, dagger and wrestling</li>
+            <li>Training is typically held in English, Finnish is also ok (explain why ?)</li>
+            <li>We take part in competitions and it's fun and encouraged. But very much ok to never compete. There are tournaments around the year.</li>
+            <li>We use steel feders bla bla</li>
+            <li>FAQ section ?</li>
+          </ul>
+
+          <br /><br />
+        </p>
+      </div>
+
+      <div id="fiore">
+        <!-- Fiore -->
+
+        <div class="content-row">
+          <div class="content-column-left text-content">
+            <h3>Fiore</h3>
+            <p>
+              Fiore de’ Liberi was an Italian fencing master born around 1350.
+              He is best known for writing The Flower of Battle (Fior di
+              Battaglia), one of the oldest surviving martial arts treatises in
+              Europe. Having trained in the noble art of combat for decades,
+              Fiore compiled his knowledge into a structured system of medieval
+              Italian martial arts, emphasizing both armed and unarmed
+              techniques.
+            </p>
+            <h3>Armizare</h3>
+            <p>
+              Armizare is the name Fiore used to describe his system of combat,
+              which encompasses a complete martial discipline for knights and
+              men-at-arms. It includes techniques for fighting with longswords,
+              daggers, spears, and poleaxes, as well as grappling and mounted
+              combat. Armizare is designed for both duels and battlefield
+              engagements, blending strategy, physical skill, and tactical
+              principles.
+            </p>
+           <!-- <h3>The Flower of Battle</h3>
+            <p>
+              The Flower of Battle (Fior di Battaglia) is Fiore’s fencing
+              manual, written between 1400 and 1409. It survives in multiple
+              manuscript versions and illustrates his combat system with
+              detailed drawings and explanations. The book is structured around
+              a system of “masters” and “plays,” teaching students how to fight
+              effectively through principles of leverage, timing, and
+              positioning. Today, The Flower of Battle remains a cornerstone of
+              historical European martial arts (HEMA) study.
+            </p> -->
+          </div>
+
+          <div class="content-column-right imgage-content">
+            <img
+              src="./photos/fiore.jpg"
+              class="row-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- I.33 -->
+      <div class="w3-black content-row" id="tour">
+        <div class="content-column-left image-content">
+          <img src="./photos/i33.png" class="row-img" />
+        </div>
+
+        <div class="content-column-right text-content">
+          <h3>The I.33 Manuscript – The Oldest Known Fencing Manual</h3>
+          <p>
+            The I.33 manuscript, also called the Walpurgis Fechtbuch, is the
+            oldest known European fencing manual, dating to around 1320. Written
+            in Latin, it depicts a fencing system focused on the sword and
+            buckler. The manuscript features a priest instructing a student,
+            presenting techniques through a series of illustrated plays with
+            accompanying text.
+          </p>
+          <p>
+            Unlike later medieval manuals, I.33 emphasizes fluid, adaptive
+            movement and complex defensive structures. It remains a vital
+            resource for historical European martial arts (HEMA), offering
+            unique insights into early medieval combat.
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <!-- The Training times Section -->
+      <div class="w3-container w3-content w3-padding-64" id="training">
+        <h2 class="w3-wide w3-center">TRAINING TIMES AND PLACES</h2>
+
+        <iframe
+          src="https://docs.google.com/document/d/e/2PACX-1vSqPzT4kldX3meO-IjBINA6rCB3RofAdBVPbWeQjOL4KHjsaa5vsNOakyaQObqZ1ic1cGhexLL0fOPC/pub?embedded=true"
+        ></iframe>
+      </div>
+
+      <!-- End Page Content -->
+    </div>
+
+    <!-- Image of location/map -->
+    <img
+      src="./photos/004.jpg"
+      class="w3-image w3-greyscale-min"
+      style="
+        object-fit: cover;
+        object-position: 40% 50%;
+        height: 38rem;
+        width: 100%;
+        overflow: hidden;
+        opacity: 0.3;
+      "
+    />
+
+    <!-- Footer -->
+    <footer
+      class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
+    >
+    <a href="https://www.facebook.com/groups/133788846812008" class="w3-hover-opacity">Facebook group
+      <i class="fa-brands fa-facebook w3-hover-opacity"></i></a> Instagram ??
+      <i class="fa-brands fa-instagram w3-hover-opacity"></i> Join discord
+      channel <i class="fa-brands fa-discord w3-hover-opacity"></i>
+    </footer>
+
+    <script>
+      // Automatic Slideshow - change image every 4 seconds
+      var myIndex = 0;
+      carousel();
+
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 4000);
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function myFunction() {
+        var x = document.getElementById("navDemo");
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
