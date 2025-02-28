@@ -3,13 +3,13 @@
   <head>
     <title>Tampere HEMA</title>
     <!-- Standard favicon -->
-<link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png" />
 
-<!-- Alternative: If using ICO format -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
+    <!-- Alternative: If using ICO format -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
-<!-- For better compatibility across devices -->
-<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+    <!-- For better compatibility across devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.png" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="src/w3.css" />
@@ -61,13 +61,13 @@
         >
 
         <a
-        href="#fiore"
-        class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-        >FIORE</a
-      >
+          href="#fiore"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >FIORE</a
+        >
 
         <a
-          href="#tour"
+          href="#i33"
           class="w3-bar-item w3-button w3-padding-large w3-hide-small"
           >I.33</a
         >
@@ -75,6 +75,12 @@
           href="#training"
           class="w3-bar-item w3-button w3-padding-large w3-hide-small"
           >TRAINING</a
+        >
+
+        <a
+          href="#rules"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >RULES</a
         >
       </div>
     </div>
@@ -92,13 +98,13 @@
         >INFO</a
       >
       <a
-      href="#fiore"
-      class="w3-bar-item w3-button w3-padding-large"
-      onclick="myFunction()"
-      >FIORE</a
-    >
+        href="#fiore"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >FIORE</a
+      >
       <a
-        href="#tour"
+        href="#i33"
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >I.33</a
@@ -110,10 +116,10 @@
         >TRAINING</a
       >
       <a
-        href="#"
+        href="#rules"
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
-        >MERCH</a
+        >RULES</a
       >
     </div>
 
@@ -172,9 +178,6 @@
           "
         />
       </div>
-      <div
-        class="w3-display-topleft w3-container w3-text-white w3-padding-32 w3-hide-small"
-      ></div>
 
       <div class="main-title-container">
         <div>
@@ -217,7 +220,7 @@
         </div>
       </div>
 
-      <!-- The Band Section -->
+      <!-- The info Section -->
       <div
         class="w3-container w3-content w3-center w3-padding-64"
         style="max-width: 800px"
@@ -229,19 +232,28 @@
           Training is typically held in English. <br />We hold weekly training
           sessions in two main disciplines: Armizare (Longsword, Dagger,
           Wrestling) and I.33 (Sword and Buckler).
-
-          <ul style="text-align: left">
-            <li>A lot of longsword but also sword bucker, dagger and wrestling</li>
-            <li>Training is typically held in English, Finnish is also ok (explain why ?)</li>
-            <li>We take part in competitions and it's fun and encouraged. But very much ok to never compete. There are tournaments around the year.</li>
-            <li>We use steel feders bla bla</li>
-            <li>How to get in? / basic courses once or twice a yar? </li>
-            <li>If experience just come to train. pls contact first</li>
-            <li>If visiting Tampere from other club come to train for free. pls contact first </li>
-          </ul>
-
-          <br /><br />
         </p>
+
+        <ul style="text-align: left">
+          <li>
+            A lot of longsword but also sword bucker, dagger and wrestling
+          </li>
+          <li>
+            Training is typically held in English, Finnish is also ok (explain
+            why ?)
+          </li>
+          <li>
+            We take part in competitions and it's fun and encouraged. But very
+            much ok to never compete. There are tournaments around the year.
+          </li>
+          <li>We use steel feders bla bla</li>
+          <li>How to get in? / basic courses once or twice a yar?</li>
+          <li>If experience just come to train. pls contact first</li>
+          <li>
+            If visiting Tampere from other club come to train for free. pls
+            contact first
+          </li>
+        </ul>
       </div>
 
       <div id="fiore">
@@ -269,7 +281,7 @@
               engagements, blending strategy, physical skill, and tactical
               principles.
             </p>
-           <!-- <h3>The Flower of Battle</h3>
+            <!-- <h3>The Flower of Battle</h3>
             <p>
               The Flower of Battle (Fior di Battaglia) is Fiore’s fencing
               manual, written between 1400 and 1409. It survives in multiple
@@ -283,16 +295,13 @@
           </div>
 
           <div class="content-column-right imgage-content">
-            <img
-              src="./photos/fiore2.jpg"
-              class="row-img"
-            />
+            <img src="./photos/fiore2.jpg" class="row-img" />
           </div>
         </div>
       </div>
 
       <!-- I.33 -->
-      <div class="w3-black content-row" id="tour">
+      <div class="w3-black content-row" id="i33">
         <div class="content-column-left image-content">
           <img src="./photos/i33.png" class="row-img" />
         </div>
@@ -316,18 +325,22 @@
         </div>
       </div>
 
-
-
       <!-- The Training times Section -->
       <div class="w3-container w3-content w3-padding-64" id="training">
         <h2 class="w3-wide w3-center">TRAINING TIMES AND PLACES</h2>
 
-
         <p class="w3-center">
-          Or this could be just a link <a href="https://docs.google.com/document/d/1B0FA-k4AoJVfwfu_eZsHEHn0mJOwi8S6_rXMaN7DxnY">here</a>
+          Or this could be just a link
+          <a
+            href="https://docs.google.com/document/d/1B0FA-k4AoJVfwfu_eZsHEHn0mJOwi8S6_rXMaN7DxnY"
+            >here</a
+          >
         </p>
 
-        <p class="w3-center">Tampere Stadion <a href="https://maps.app.goo.gl/w59JHC9vna5ZoxBG8"> google maps</a> </p>
+        <p class="w3-center">
+          Tampere Stadion
+          <a href="https://maps.app.goo.gl/w59JHC9vna5ZoxBG8"> google maps</a>
+        </p>
 
         <iframe
           src="https://docs.google.com/document/d/e/2PACX-1vSqPzT4kldX3meO-IjBINA6rCB3RofAdBVPbWeQjOL4KHjsaa5vsNOakyaQObqZ1ic1cGhexLL0fOPC/pub?embedded=true"
@@ -336,7 +349,88 @@
 
       <!-- End Page Content -->
     </div>
+    <div class="content-row" id="rules">
+      <div class="rules">
+        <h2>CLUB RULES</h2>
+        <ol class="bolded-list">
+          <li>
+            <p>Safety comes first</p>
+            <p>
+              Every club member is responsible for their safety and the safety
+              of their training partners. During training, the instructions and
+              advice from the instructor must be followed. You are entitled to
+              raise your concerns regarding your safety or the safety of your
+              training partners.
+            </p>
+          </li>
 
+          <li>
+            <p>Use gear appropriate for the training and in good condition</p>
+            <p>
+              Follow the gear requirements from the instructor for each
+              exercise. Weapons used for free play and sparring must be designed
+              for sparring (flexible, safe tip). Blunt training weapons are
+              still dangerous and should be treated with appropriate respect and
+              caution at all times.
+            </p>
+          </li>
+
+          <li>
+            <p>Report incidents and injuries immediately to the instructor</p>
+            <p>A first aid kit is available on training premises.</p>
+          </li>
+
+          <li>
+            <p>Turn up to training in time, fit and ready to take part</p>
+            <p>
+              You must never train under the influence of alcohol, drugs or any
+              substance which could hinder your physical or mental abilities.
+              Wear appropriate clothing for physical activity. Never wear
+              jewelry, rings or necklace during training.
+            </p>
+          </li>
+
+          <li>
+            <p>Train at your own rhythm</p>
+            <p>
+              If an exercise feels uncomfortable or you need to rest, take a
+              break and continue when you feel ready. You can ask the instructor
+              for help to adapt an exercise to your own body limitations. If you
+              have an injury or a medical condition which could hinder your
+              training, inform the instructor at the start of the class.
+            </p>
+          </li>
+          <li>
+            <p>Use only the appropriate amount of force</p>
+            <p>
+              Your speed and intensity must always remain safe, controlled and
+              adapted to the amount of protective equipment worn, to the skill
+              level of both fencers and to the type of training. You must
+              decrease your intensity if your training partner asks you to.
+            </p>
+          </li>
+          <li>
+            <p>
+              Treat every club member with dignity, respect and consideration
+            </p>
+            <p>
+              Discrimination, bullying or harassment are unacceptable. If you
+              witness or are a victim of such behavior, please speak to the
+              instructor or a member of the board.
+            </p>
+          </li>
+          <li>
+            <p>Follow good sportsmanship</p>
+            <p>
+              Never discourage an honest effort. HEMA, as a martial art, is
+              inherently dangerous : it should be practiced in a collaborative
+              way. Visible cues such as salutes are used to confirm readiness
+              before starting a drill, free play or sparring.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </div>
     <!-- Image of location/map -->
     <img
       src="./photos/004.jpg"
@@ -355,10 +449,13 @@
     <footer
       class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
     >
-    <a href="https://www.facebook.com/groups/133788846812008" class="w3-hover-opacity">Facebook group
-      <i class="fa-brands fa-facebook w3-hover-opacity"></i></a> Instagram ??
-      <i class="fa-brands fa-instagram w3-hover-opacity"></i> Join discord
-      channel <i class="fa-brands fa-discord w3-hover-opacity"></i>
+      <a
+        href="https://www.facebook.com/groups/133788846812008"
+        class="w3-hover-opacity"
+        >Facebook group <i class="fa-brands fa-facebook w3-hover-opacity"></i
+      ></a>
+      Instagram ?? <i class="fa-brands fa-instagram w3-hover-opacity"></i> Join
+      discord channel <i class="fa-brands fa-discord w3-hover-opacity"></i>
     </footer>
 
     <script>
