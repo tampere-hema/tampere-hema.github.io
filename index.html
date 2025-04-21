@@ -13,10 +13,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="src/w3.css" />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lato"
-    />
+    /> -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -74,7 +74,7 @@
         <a
           href="#training"
           class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-          >TRAINING</a
+          >TRAINING TIMES</a
         >
 
         <a
@@ -126,57 +126,23 @@
     <!-- Page content -->
     <div class="w3-content" style="max-width: 2000px; margin-top: 46px">
       <!-- Automatic Slideshow Images -->
-      <div class="mySlides w3-display-container w3-center">
-        <img
-          src="./photos/001.jpg"
-          style="
-            object-fit: cover;
-            object-position: 40% 50%;
-            height: 38rem;
-            width: 100%;
-            overflow: hidden;
-            filter: brightness(40%);
-          "
-        />
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/001.jpg" class="slideshow-img" />
       </div>
-      <div class="mySlides w3-display-container w3-center">
-        <img
-          src="./photos/002.jpg"
-          style="
-            object-fit: cover;
-            object-position: 40% 50%;
-            height: 38rem;
-            width: 100%;
-            overflow: hidden;
-            filter: brightness(40%);
-          "
-        />
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/002.jpg" class="slideshow-img" />
       </div>
-      <div class="mySlides w3-display-container w3-center">
-        <img
-          src="./photos/003.jpg"
-          style="
-            object-fit: cover;
-            object-position: 40% 50%;
-            height: 38rem;
-            width: 100%;
-            overflow: hidden;
-            filter: brightness(40%);
-          "
-        />
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/003.jpg" class="slideshow-img" />
       </div>
-      <div class="mySlides w3-display-container w3-center">
-        <img
-          src="./photos/swords_bw.jpg"
-          style="
-            object-fit: cover;
-            object-position: 40% 50%;
-            height: 38rem;
-            width: 100%;
-            overflow: hidden;
-            filter: brightness(40%);
-          "
-        />
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/swords_bw.jpg" class="slideshow-img" />
+      </div>
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/006.jpg" class="slideshow-img" />
+      </div>
+      <div class="mySlides w3-display-container tre-center">
+        <img src="./photos/007.jpg" class="slideshow-img" />
       </div>
 
       <div class="main-title-container">
@@ -200,6 +166,9 @@
               .s0 {
                 fill: #ffffff;
               }
+              .s1 {
+                fill: #ffffff;
+              }
             </style>
             <g id="Lynx">
               <path
@@ -211,7 +180,7 @@
               <g id="Pupil">
                 <path
                   id="Pupil 2 "
-                  class="s0"
+                  class="s1"
                   d="m43.3 82.7l0.9-0.7c0 0 3.2 3.1 2-1.4l2.7-2.5c0 0 1.5 9.8-5.6 4.6z"
                 />
               </g>
@@ -222,44 +191,68 @@
 
       <!-- The info Section -->
       <div
-        class="w3-container w3-content w3-center w3-padding-64"
-        style="max-width: 800px"
+        class="w3-container w3-content tre-center w3-padding-64"
+        style="max-width: 1100px"
         id="band"
       >
-        <p class="w3-justify">
+        <h2>WHO WE ARE</h2>
+        <p class="w3-left-align">
           Tampere HEMA (Tampereen historiallisen miekkailun seura ry) is a
-          historical European martial arts club in the city of Tampere, Finland.
-          Training is typically held in English. <br />We hold weekly training
-          sessions in two main disciplines: Armizare (Longsword, Dagger,
-          Wrestling) and I.33 (Sword and Buckler).
+          historical European martial arts club in Tampere. We hold weekly
+          training sessions in two main disciplines: Armizare (Longsword,
+          Dagger, Wrestling) and I.33 (Sword and Buckler).<br />
+          Training is typically conducted in English, but if all participants
+          are Finnish speakers, the session will be held in Finnish.
         </p>
+
+        <div class="content-fluidi-row">
+          <div>
+            <svg
+              width="43"
+              height="30"
+              viewBox="0 0 18 12"
+              xmlns="http://www.w3.org/2000/svg"
+              style="border: 1px solid #ccc"
+            >
+              <rect width="18" height="12" fill="#fff" />
+              <rect x="5" width="2" height="12" fill="#003580" />
+              <rect y="5" width="18" height="2" fill="#003580" />
+            </svg>
+          </div>
+
+          <p class="w3-left-align">
+            Käytämme viestinnässä pääasiassa englantia, koska osa jäsenistämme
+            ei puhu suomea. Toimintaamme voi kuitenkin osallistua hyvin myös
+            suomen kielellä, eikä englannin kielen taito ole edellytys mukaan
+            tulolle.
+          </p>
+        </div>
+
+        <h4>Come fence with us</h4>
 
         <ul style="text-align: left">
           <li>
-            A lot of longsword but also sword bucker, dagger and wrestling
+            We offer basic courses once or twice a year. Usually at autumn and
+            start of the year. No experience on fencing or martial arts is
+            needed.
+          </li>
+
+          <li>
+            If you have experience on HEMA (for example a basic course) you can
+            join our normal training. *
           </li>
           <li>
-            Training is typically held in English, Finnish is also ok (explain
-            why ?)
+            If you are visiting Tampere from other club you are welcome to fence
+            with us for free. *
           </li>
-          <li>
-            We take part in competitions and it's fun and encouraged. But very
-            much ok to never compete. There are tournaments around the year.
-          </li>
-          <li>We use steel feders bla bla</li>
-          <li>How to get in? / basic courses once or twice a yar?</li>
-          <li>If experience just come to train. pls contact first</li>
-          <li>
-            If visiting Tampere from other club come to train for free. pls
-            contact first
-          </li>
+          (* please contact us first to let us know)
         </ul>
       </div>
 
       <div id="fiore">
         <!-- Fiore -->
 
-        <div class="content-row">
+        <div class="tre-dark-bg content-row">
           <div class="content-column-left text-content">
             <h3>Fiore de’ Liberi</h3>
             <p>
@@ -301,7 +294,7 @@
       </div>
 
       <!-- I.33 -->
-      <div class="w3-black content-row" id="i33">
+      <div class="content-row content-row-reverse" id="i33">
         <div class="content-column-left image-content">
           <img src="./photos/i33.png" class="row-img" />
         </div>
@@ -325,31 +318,67 @@
         </div>
       </div>
 
+      <div id="fiore">
+        <!-- Fiore -->
+
+        <div class="tre-dark-bg content-row">
+          <div class="content-column-left text-content">
+            <h3>Competing – The sporty side of HEMA</h3>
+            <p>
+              If you're looking to challenge yourself, there are several open
+              tournaments held across Finland throughout the year. We encourage
+              participation, and some of our members regularly compete in these
+              events. <br />Most tournaments focus on longsword, but sometimes
+              other weapons are included as well. Competitions are a great way
+              to test your skills, meet fencers from other clubs, and experience
+              the wider community.
+              <br />
+              That said—competing is totally optional. While many of us enjoy
+              the thrill of competition, it's perfectly fine if tournaments
+              aren’t your thing. Taking part is encouraged—but never required.
+            </p>
+          </div>
+
+          <div class="content-column-right imgage-content">
+            <img src="./photos/tournament.jpg" class="row-img" />
+          </div>
+        </div>
+      </div>
+
       <!-- The Training times Section -->
-      <div class="w3-container w3-content w3-padding-64" id="training">
-        <h2 class="w3-wide w3-center">TRAINING TIMES AND PLACES</h2>
+      <div class="content-row content-row-reverse" id="training">
+        <div class="content-column-left image-content">
+          <img src="./photos/stadion_arrow.jpg" class="row-img" />
+        </div>
+        <div>
+          <h2 class="tre-center">TRAINING TIMES AND PLACES</h2>
 
-        <p class="w3-center">
-          Or this could be just a link
-          <a
-            href="https://docs.google.com/document/d/1B0FA-k4AoJVfwfu_eZsHEHn0mJOwi8S6_rXMaN7DxnY"
-            >here</a
-          >
-        </p>
+          <p class="tre-center hover-links">
+            We train at Tampere stadion sports hall or outside in summer time.
+            <br />
+            Current training schedule and place can be found
+            <a
+              href="https://docs.google.com/document/d/1B0FA-k4AoJVfwfu_eZsHEHn0mJOwi8S6_rXMaN7DxnY"
+              ><b>here</b></a
+            >
+          </p>
 
-        <p class="w3-center">
-          Tampere Stadion
-          <a href="https://maps.app.goo.gl/w59JHC9vna5ZoxBG8"> google maps</a>
-        </p>
-
+          <p class="tre-center hover-links">
+            Tampere Stadion at the
+            <a href="https://maps.app.goo.gl/w59JHC9vna5ZoxBG8"> google maps</a>
+          </p>
+          <!--
         <iframe
           src="https://docs.google.com/document/d/e/2PACX-1vSqPzT4kldX3meO-IjBINA6rCB3RofAdBVPbWeQjOL4KHjsaa5vsNOakyaQObqZ1ic1cGhexLL0fOPC/pub?embedded=true"
         ></iframe>
+
+      -->
+        </div>
       </div>
 
       <!-- End Page Content -->
     </div>
-    <div class="content-row" id="rules">
+    <div class="tre-dark-bg content-row" id="rules">
       <div class="rules">
         <h2>CLUB RULES</h2>
         <ol class="bolded-list">
@@ -432,6 +461,8 @@
       </div>
     </div>
     <!-- Image of location/map -->
+
+    <!--
     <img
       src="./photos/004.jpg"
       class="w3-image w3-greyscale-min"
@@ -444,18 +475,32 @@
         opacity: 0.3;
       "
     />
+  -->
 
     <!-- Footer -->
     <footer
-      class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge"
+      class="w3-container w3-padding-64 tre-center w3-opacity w3-light-grey w3-large"
     >
-      <a
-        href="https://www.facebook.com/groups/133788846812008"
-        class="w3-hover-opacity"
-        >Facebook group <i class="fa-brands fa-facebook w3-hover-opacity"></i
-      ></a>
-      Instagram ?? <i class="fa-brands fa-instagram w3-hover-opacity"></i> Join
-      discord channel <i class="fa-brands fa-discord w3-hover-opacity"></i>
+      <div class="footer-links hover-links">
+        <a href="mailto:tamperehema.club@gmail.com"
+          >tamperehema.club@gmail.com</a
+        >
+        <a href="https://www.facebook.com/groups/133788846812008"
+          >Facebook group <i class="fa-brands fa-facebook"></i
+        ></a>
+
+        <a href="https://www.facebook.com/groups/133788846812008">
+          Instagram <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/groups/133788846812008"
+          >Join our discord channel <i class="fa-brands fa-discord"></i
+        ></a>
+
+        <a
+          href="https://youtube.com/playlist?list=PLllk6cSDnLL0p-mkpGrrCHOlI5An20nGN&si=3VR_fIXjfgFYFgmE"
+          >Youtube playlist <i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
     </footer>
 
     <script>
