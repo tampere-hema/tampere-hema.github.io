@@ -80,7 +80,7 @@
         <a
           href="#rules"
           class="w3-bar-item w3-button w3-padding-large w3-hide-small"
-          >RULES</a
+          >CLUB RULES</a
         >
       </div>
     </div>
@@ -113,13 +113,13 @@
         href="#training"
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
-        >TRAINING</a
+        >TRAINING TIMES</a
       >
       <a
         href="#rules"
         class="w3-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
-        >RULES</a
+        >CLUB RULES</a
       >
     </div>
 
@@ -199,10 +199,11 @@
         <p class="w3-left-align">
           Tampere HEMA (Tampereen historiallisen miekkailun seura ry) is a
           historical European martial arts club in Tampere. We hold weekly
-          training sessions in two main disciplines: Armizare (Longsword,
-          Dagger, Wrestling) and I.33 (Sword and Buckler).<br />
-          Training is typically conducted in English, but if all participants
-          are Finnish speakers, the session will be held in Finnish.
+          training sessions in two main systems: Armizare (Longsword, Dagger,
+          Wrestling) and I.33 (Sword and Buckler). Longsword, being the most
+          popular weapon, takes up the most training hours each week. Training
+          is typically conducted in English, but if all participants are Finnish
+          speakers, the session will be held in Finnish.
         </p>
 
         <div class="content-fluidi-row">
@@ -213,6 +214,8 @@
               viewBox="0 0 18 12"
               xmlns="http://www.w3.org/2000/svg"
               style="border: 1px solid #ccc"
+              aria-label="Finland flag"
+              role="img"
             >
               <rect width="18" height="12" fill="#fff" />
               <rect x="5" width="2" height="12" fill="#003580" />
@@ -220,7 +223,7 @@
             </svg>
           </div>
 
-          <p class="w3-left-align">
+          <p class="w3-left-align" lang="fi">
             Käytämme viestinnässä pääasiassa englantia, koska osa jäsenistämme
             ei puhu suomea. Toimintaamme voi kuitenkin osallistua hyvin myös
             suomen kielellä, eikä englannin kielen taito ole edellytys mukaan
@@ -228,25 +231,26 @@
           </p>
         </div>
 
-        <h4>Come fence with us</h4>
+        <h3>COME FENCE WITH US</h3>
 
         <ul style="text-align: left">
           <li>
-            We offer basic courses once or twice a year. Usually at autumn and
-            start of the year. No experience on fencing or martial arts is
-            needed.
+            We offer basic courses once or twice a year, typically in the autumn
+            and at the start of the year. No prior experience in fencing or
+            martial arts is required.
           </li>
 
           <li>
-            If you have experience on HEMA (for example a basic course) you can
-            join our normal training. *
+            If you have HEMA experience (e.g., completed a basic course), you’re
+            welcome to join our regular training sessions. *
           </li>
           <li>
-            If you are visiting Tampere from other club you are welcome to fence
-            with us for free. *
+            If you're from another HEMA club and want to drop in, you're very
+            welcome to fence with us for free — and Tampere is a pretty nice
+            place to visit anyway. *
           </li>
-          (* please contact us first to let us know)
         </ul>
+        * Please contact us first so we know you’re coming.
       </div>
 
       <div id="fiore">
@@ -254,7 +258,7 @@
 
         <div class="tre-dark-bg content-row">
           <div class="content-column-left text-content">
-            <h3>Fiore de’ Liberi</h3>
+            <h2>FIORE DE’ LIBERI</h2>
             <p>
               Fiore de’ Liberi was an Italian fencing master born around 1350.
               He is best known for writing The Flower of Battle (Fior di
@@ -264,7 +268,7 @@
               Italian martial arts, emphasizing both armed and unarmed
               techniques.
             </p>
-            <h3>Armizare</h3>
+            <h3>ARMIZARE</h3>
             <p>
               Armizare is the name Fiore used to describe his system of combat,
               which encompasses a complete martial discipline for knights and
@@ -288,7 +292,11 @@
           </div>
 
           <div class="content-column-right imgage-content">
-            <img src="./photos/fiore2.jpg" class="row-img" />
+            <img
+              src="./photos/fiore2.jpg"
+              class="row-img"
+              alt="Page from Fiores book showing four virtues"
+            />
           </div>
         </div>
       </div>
@@ -296,11 +304,20 @@
       <!-- I.33 -->
       <div class="content-row content-row-reverse" id="i33">
         <div class="content-column-left image-content">
-          <img src="./photos/i33.png" class="row-img" />
+          <img
+            src="./photos/i33.png"
+            class="row-img"
+            alt="Page from I.33 showing a play with sword and bucler"
+          />
         </div>
 
         <div class="content-column-right text-content">
-          <h3>The I.33 Manuscript – The Oldest Known Fencing Manual</h3>
+          <!-- <h2>The I.33 Manuscript – The Oldest Known Fencing Manual</h2> -->
+          <!-- <h2>THE I.33 MANUSCRIPT – THE OLDEST KNOWN FENCING MANUAL</h2> -->
+
+          <h2>THE I.33 MANUSCRIPT</h2>
+          <p class="subtitle">The Oldest Known Fencing Manual</p>
+
           <p>
             The I.33 manuscript, also called the Walpurgis Fechtbuch, is the
             oldest known European fencing manual, dating to around 1320. Written
@@ -323,7 +340,8 @@
 
         <div class="tre-dark-bg content-row">
           <div class="content-column-left text-content">
-            <h3>Competing – The sporty side of HEMA</h3>
+            <h2>COMPETING</h2>
+            <p class="subtitle">The Sport Side of HEMA</p>
             <p>
               If you're looking to challenge yourself, there are several open
               tournaments held across Finland throughout the year. We encourage
@@ -340,7 +358,11 @@
           </div>
 
           <div class="content-column-right imgage-content">
-            <img src="./photos/tournament_blur.jpg" class="row-img" />
+            <img
+              src="./photos/tournament_blur.jpg"
+              class="row-img"
+              alt="Photo from HLO 2025 tournament in Helsinki"
+            />
           </div>
         </div>
       </div>
@@ -348,7 +370,11 @@
       <!-- The Training times Section -->
       <div class="content-row content-row-reverse" id="training">
         <div class="content-column-left image-content">
-          <img src="./photos/stadion_arrow.jpg" class="row-img" />
+          <img
+            src="./photos/stadion_arrow.jpg"
+            class="row-img"
+            alt="Location of Tampere Stadion sports halls"
+          />
         </div>
         <div>
           <h2 class="tre-center">TRAINING TIMES AND PLACES</h2>
