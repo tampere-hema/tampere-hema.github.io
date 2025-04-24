@@ -11,8 +11,12 @@
     <!-- For better compatibility across devices -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon.png" />
     <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Tampere HEMA is a historical European martial arts (HEMA) club based in Tampere, Finland. We train longsword, sword and buckler, and more."
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="src/w3.css" />
+    <link rel="stylesheet" href="src/style.css" />
     <!-- <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Lato"
@@ -45,41 +49,41 @@
   <body>
     <!-- Navbar -->
     <div class="w3-top">
-      <div class="w3-bar w3-black w3-card">
+      <div class="tre-black tre-card">
         <a
-          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
           href="javascript:void(0)"
           onclick="myFunction()"
           title="Toggle Navigation Menu"
           ><i class="fa fa-bars"></i
         ></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+        <a href="#" class="tre-bar-item w3-button w3-padding-large">HOME</a>
         <a
           href="#who"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-small"
           >INFO</a
         >
 
         <a
           href="#fiore"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-small"
           >FIORE</a
         >
 
         <a
           href="#i33"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-small"
           >I.33</a
         >
         <a
           href="#training"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-small"
           >TRAINING TIMES</a
         >
 
         <a
           href="#rules"
-          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          class="tre-bar-item w3-button w3-padding-large w3-hide-small"
           >CLUB RULES</a
         >
       </div>
@@ -88,36 +92,36 @@
     <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
     <div
       id="navDemo"
-      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      class="tre-bar-block tre-black w3-hide w3-hide-large w3-hide-medium w3-top"
       style="margin-top: 46px"
     >
       <a
         href="#who"
-        class="w3-bar-item w3-button w3-padding-large"
+        class="tre-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >INFO</a
       >
       <a
         href="#fiore"
-        class="w3-bar-item w3-button w3-padding-large"
+        class="tre-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >FIORE</a
       >
       <a
         href="#i33"
-        class="w3-bar-item w3-button w3-padding-large"
+        class="tre-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >I.33</a
       >
       <a
         href="#training"
-        class="w3-bar-item w3-button w3-padding-large"
+        class="tre-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >TRAINING TIMES</a
       >
       <a
         href="#rules"
-        class="w3-bar-item w3-button w3-padding-large"
+        class="tre-bar-item w3-button w3-padding-large"
         onclick="myFunction()"
         >CLUB RULES</a
       >
@@ -487,22 +491,6 @@
         </ol>
       </div>
     </div>
-    <!-- Image of location/map -->
-
-    <!--
-    <img
-      src="./photos/004.jpg"
-      class="w3-image w3-greyscale-min"
-      style="
-        object-fit: cover;
-        object-position: 40% 50%;
-        height: 38rem;
-        width: 100%;
-        overflow: hidden;
-        opacity: 0.3;
-      "
-    />
-  -->
 
     <!-- Footer -->
     <footer
@@ -546,16 +534,16 @@
           myIndex = 1;
         }
         x[myIndex - 1].style.display = "block";
-        setTimeout(carousel, 4000);
+        setTimeout(carousel, 5000);
       }
 
       // Used to toggle the menu on small screens when clicking on the menu button
       function myFunction() {
         var x = document.getElementById("navDemo");
-        if (x.className.indexOf("w3-show") == -1) {
-          x.className += " w3-show";
+        if (x.className.indexOf("tre-show") == -1) {
+          x.className += " tre-show";
         } else {
-          x.className = x.className.replace(" w3-show", "");
+          x.className = x.className.replace(" tre-show", "");
         }
       }
     </script>
