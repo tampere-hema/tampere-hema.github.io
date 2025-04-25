@@ -372,14 +372,15 @@ li p:first-child {
 
 .footer-links {
   display: flex;
-  display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
+  gap: 0.5rem; /* spacing between items */
 }
 
 .footer-links a {
-  flex: 1;
+  flex: 1 1 280px; /* allow shrinking, growing, and set a base width */
   padding: 0.5rem 1rem;
   text-decoration: none;
   color: #333;
@@ -412,4 +413,16 @@ li p:first-child {
   background-color: #f1f1f1;
   font-size: 18px;
   opacity: 0.6;
+}
+@media (max-width: 600px) {
+  .footer-links a {
+    flex: 1 1 100%;
+  }
+}
+
+.ad-banner {
+  text-align: center;
+  background-color: #F0D199;
+  font-size: 18px;
+  padding: 1rem;
 }
