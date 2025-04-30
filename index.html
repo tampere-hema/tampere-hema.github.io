@@ -47,7 +47,7 @@
     <div class="tre-top">
       <div class="tre-black tre-card">
         <a
-          class="tre-bar-item tre-button tre-padding-large tre-hide-medium tre-hide-medium tre-right"
+          class="tre-bar-item tre-button tre-padding-large tre-hide-medium tre-right"
           href="javascript:void(0)"
           onclick="myFunction()"
           title="Toggle Navigation Menu"
@@ -88,7 +88,7 @@
     <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
     <div
       id="navDemo"
-      class="tre-bar-block tre-black tre-hide tre-hide-medium tre-hide-medium tre-top"
+      class="tre-bar-block tre-black tre-hide tre-hide-medium tre-top"
       style="margin-top: 46px"
     >
       <a
@@ -130,19 +130,22 @@
         <img src="./photos/001.jpg" class="slideshow-img" />
       </div>
       <div class="mySlides">
-        <img src="./photos/002.jpg" class="slideshow-img" />
+        <img src="./photos/swords_bw.jpg" class="slideshow-img" />
+      </div>
+      <div class="mySlides">
+        <img src="./photos/007.jpg" class="slideshow-img" />
+      </div>
+      <div class="mySlides">
+        <img src="./photos/005.jpg" class="slideshow-img" />
       </div>
       <div class="mySlides">
         <img src="./photos/003.jpg" class="slideshow-img" />
       </div>
       <div class="mySlides">
-        <img src="./photos/swords_bw.jpg" class="slideshow-img" />
-      </div>
-      <div class="mySlides">
         <img src="./photos/006.jpg" class="slideshow-img" />
       </div>
       <div class="mySlides">
-        <img src="./photos/007.jpg" class="slideshow-img" />
+        <img src="./photos/002.jpg" class="slideshow-img" />
       </div>
 
       <div class="main-title-container">
@@ -521,12 +524,9 @@
         <a href="https://www.facebook.com/groups/133788846812008"
           >Facebook group <i class="fa-brands fa-facebook"></i
         ></a>
-        <a href="https://www.facebook.com/groups/133788846812008">
+        <a href="https://www.instagram.com/tamperehema/">
           Instagram <i class="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/groups/133788846812008"
-          >Join our discord server <i class="fa-brands fa-discord"></i
-        ></a>
         <a
           href="https://youtube.com/playlist?list=PLllk6cSDnLL0p-mkpGrrCHOlI5An20nGN&si=3VR_fIXjfgFYFgmE"
           >Youtube playlist <i class="fa-brands fa-youtube"></i
@@ -535,8 +535,10 @@
     </footer>
 
     <script>
-      // Automatic Slideshow - change image every 5 seconds
-      var myIndex = 0;
+      // Automatic Slideshow - start at random and change image every 5 seconds
+      var myIndex = Math.floor(
+        Math.random() * document.getElementsByClassName("mySlides").length
+      );
       carousel();
 
       function carousel() {

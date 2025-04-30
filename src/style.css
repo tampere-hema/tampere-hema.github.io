@@ -150,24 +150,20 @@ h6 {
   max-width: 980px;
 }
 .tre-hide {
-  display: none !important;
+  display: none;
 }
 .tre-show {
-  display: block !important;
+  display: block;
 }
-@media (max-width: 689px) {
+@media (max-width: 719px) {
   .tre-hide-small {
-    display: none !important;
+    display: none;
   }
 }
-@media (min-width: 993px) {
+
+@media  (min-width: 720px) {
   .tre-hide-medium {
-    display: none !important;
-  }
-}
-@media (max-width: 992px) and (min-width: 690px) {
-  .tre-hide-medium {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -182,7 +178,6 @@ h6 {
   display: block;
 }
 
-
 .tre-container {
   padding: 0.01em 16px;
 }
@@ -190,40 +185,37 @@ h6 {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
-
 .tre-left-align {
-  text-align: left !important;
+  text-align: left;
 }
-
 
 .tre-center {
-  text-align: center !important;
+  text-align: center;
 }
 
-
 .tre-padding-large {
-  padding: 12px 24px !important;
+  padding: 12px 24px;
 }
 
 .tre-padding-64 {
-  padding-top: 64px !important;
-  padding-bottom: 64px !important;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .tre-left {
-  float: left !important;
+  float: left;
 }
 .tre-right {
-  float: right !important;
+  float: right;
 }
 .tre-button:hover {
-  color: #000 !important;
-  background-color: #ccc !important;
+  color: #000;
+  background-color: #ccc;
 }
 
 .tre-black {
-  color: #fff !important;
-  background-color: #000 !important;
+  color: #fff;
+  background-color: #000;
 }
 .slideshow-img {
   object-fit: cover;
