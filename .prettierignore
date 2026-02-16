@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Cache files
+.cache/
+
+# Ignore specific files
+*.min.js
+*.min.css
+
+# Other
+.DS_Store
